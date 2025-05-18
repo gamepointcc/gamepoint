@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Point | Fliperama & Lanches</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #1a0033;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background-color: #2a0055;
+      padding: 30px 10px;
+      text-shadow: 2px 2px #ff00c8;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 10px;
+      color: #fddb3a;
+    }
+
+    nav {
+      background-color: #29004f;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fddb3a;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 12px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .sobre {
+      background-color: #3b0a60;
+      margin: 30px auto;
+      padding: 20px;
+      border: 2px dashed #ff00c8;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .sobre p {
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .btn {
+      background-color: #ff00c8;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border: 2px solid #fddb3a;
+      font-size: 10px;
+    }
+
+    .img-cardapio, .img-mapa {
+      max-width: 40%;
+      margin: 20px auto;
+      display: block;
+      border: 4px solid #ff00c8;
+    }
+
+    footer {
+      background-color: #1a002e;
+      padding: 20px;
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GAME POINT</h1>
+    <p>Jogue, Divirta-se, Saboreie!</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#localizacao">Localização</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>O Game Point é o lugar ideal para quem busca diversão e um bom hambúrguer.</p>
+    <p>Contamos com uma seleção de jogos de fliperama e uma lanchonete com hambúrgueres saborosos, preparados com ingredientes de qualidade.</p>
+    <p>Venha jogar, aproveitar e saborear!</p>
+  </section>
+
+  <section id="cardapio">
+    <h2>Cardápio</h2>
+    <img src="img/cardápio.png" alt="Cardápio Game Point" class="img-cardapio">
+  </section>
+
+  <section id="localizacao">
+    <h2>Localização</h2>
+    <img src="img/mapa.jpg" alt="Mapa Game Point" class="img-mapa">
+    <p><a class="btn" href="https://maps.app.goo.gl/kZGdPRdeEBcbUijq7" target="_blank">Abrir no Google Maps</a></p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: (21) 99865-4432</p>
+    <p>Instagram: <a class="btn" href="https://instagram.com/pointgame.flip" target="_blank">@pointgame.flip</a></p>
+    <p>Email: <a class="btn" href="mailto:pointgamecontato@gmail.com">pointgamecontato@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Game Point - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
